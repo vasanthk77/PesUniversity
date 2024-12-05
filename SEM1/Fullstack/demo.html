@@ -1,0 +1,28 @@
+<head>
+    <title><b><i>Welcome to Pes univeristy</i></b></title>
+</head>
+<body>
+    <script>
+        function submitForm(event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+
+            // Show an alert
+            alert("Form submitted successfully!");
+        }
+    </script>
+    <img  src ="pes.jfif" alt="centered image">
+    <br>
+    <br>
+    <h3 text-align:centern > Please Fill the  regirstration form </h3>
+    <form text-align:center onsubmit="submitForm(event)">
+        <label>Name</label>
+        <input type="text" placeholder="Enter your Name " name="name"  id ="name"required>
+        <br>
+        <label>SRN</label>
+        <input type="text" placeholder="Enter your SRN " name="srn" id="srn" required>
+        <br>
+        <button type="submit">submit</button>
+
+    </form>
+</body>
