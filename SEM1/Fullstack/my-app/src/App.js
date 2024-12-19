@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Demo from './rstyle.js'; // Corrected relative path
 
 function App() {
   return (
@@ -9,9 +11,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Demo /> {/* Renders the Demo component */}
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://reactjs.org"y
           target="_blank"
           rel="noopener noreferrer"
         >

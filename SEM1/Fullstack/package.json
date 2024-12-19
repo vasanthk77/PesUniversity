@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "npm": "^10.9.2"
+    "npm": "^10.9.2",
+    "web-vitals": "^4.2.4"
   }
 }
