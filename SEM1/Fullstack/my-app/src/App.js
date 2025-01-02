@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from "react";
-import Demo from './forms.js'; // Corrected relative path
+import Demo from './forms1.js'; // Corrected relative path
 
 function App() {
   return (
